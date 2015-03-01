@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/LotusBrand"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg3"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/LayoutLabel3"
+        android:background="@drawable/label3">
+        <ImageButton
+            android:src="@drawable/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonBack3" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/car_button"
+        android:background="@drawable/lotuscarLogo" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/jewelry_button"
+        android:background="@drawable/lotusmann_logo" />
+</LinearLayout>

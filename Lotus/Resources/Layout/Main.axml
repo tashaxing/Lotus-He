@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/linearLayoutMain"
+    android:background="#ff5df5e5">
+<!-->标题栏,弄成40dp凑合<-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/LayoutLabel"
+        android:background="@drawable/label">
+        <ImageButton
+            android:src="@drawable/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonBack" />
+        <ImageButton
+            android:background="@drawable/sound_on"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/imageButtonSetting"
+            android:id="@+id/imageButtonSound" />
+        <ImageButton
+            android:src="@drawable/settingButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imageButtonSetting" />
+    </RelativeLayout>
+<!-->图片陈列展览<-->
+    <Gallery
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spacing="1dp"
+        android:id="@+id/galleryShow" />
+<!-->腰带展示惊喜<-->
+    <TextView
+        android:text="lotus is like an angel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_bless"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffffff"
+        android:textSize="14sp"
+        android:background="#ff00eb00" />
+<!-->四个圆形按钮<-->
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LayoutLogo">
+        <ImageButton
+            android:src="@drawable/logo1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton1"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/LogoButtonBg"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+        <ImageButton
+            android:src="@drawable/logo2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imageButton2"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/LogoButtonBg"
+            android:layout_alignParentTop="true" />
+        <ImageButton
+            android:src="@drawable/logo3Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/LogoButtonBg"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" />
+        <ImageButton
+            android:src="@drawable/logo4Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/LogoButtonBg" />
+    </RelativeLayout>
+</LinearLayout>

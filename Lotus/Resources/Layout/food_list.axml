@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/LotusFood"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/label2">
+        <ImageButton
+            android:src="@drawable/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonBack2_2" />
+    </RelativeLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1">
+        <!--food1-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/food1" />
+                <TextView
+                    android:text="    冰糖湘莲，是湘菜中有名的甜菜，莲子白嫩粉糯，汤汁粘稠浓郁，果脯颜色缤纷，冰镇后，吃一口，真是舒服极了。这个夏天不想吃饭的，也会毫不犹豫的吃两碗。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:background="#ffa9f7c6"
+                    android:padding="5dp" />
+            </LinearLayout>
+        <!--food2-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/food2" />
+                <TextView
+                    android:text="    淡粉色的玫瑰红酒莲蓉冰皮月饼，是另一款味道很独特的冰皮月饼。相对于清新爽口的奶皇抹茶饼皮月饼，它有些微微酸涩的清甜口味，搭配上凌厉甜美的玫瑰馅料和甘甜的白莲蓉，亦浓亦淡更惹人回味。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:background="#ffa9f7c6"
+                    android:padding="5dp" />
+            </LinearLayout>
+        <!--food3-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/food3" />
+                <TextView
+                    android:text="    莲米炒藕丁 这个菜只用放少量油和盐，因为要品味的是嫩藕和莲米那一丝丝清甜。就仿佛娉婷少女，无须过多赘饰，自然就有种清水出芙蓉的滋味。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:background="#ffa9f7c6"
+                    android:padding="5dp" />
+            </LinearLayout>
+        <!--food4-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/food4" />
+                <TextView
+                    android:text="    结合了莲米和花生的韵味，美容养颜的一款靓汤。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:background="#ffa9f7c6"
+                    android:padding="5dp" />
+            </LinearLayout>
+        <!--food5-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/food5" />
+                <TextView
+                    android:text="    很有营养价值，莲藕生用性寒，有清热凉血作用。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:background="#ffa9f7c6"
+                    android:padding="5dp" />
+            </LinearLayout>
+        <!--food6-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/food6" />
+                <TextView
+                    android:text="    莲藕炒或煮熟以后，性由凉变温，失去了消淤清热的性能，而变为对脾胃有益，有养胃滋阴，益血，止泻的功效，适合各类人群食用"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:background="#ffa9f7c6"
+                    android:padding="5dp" />
+            </LinearLayout>
+        <!--food7-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/food7" />
+                <TextView
+                    android:text="    糯米养胃健脾，鸡肉能补充蛋白质让营养更均衡。荷香糯米鸡不同于一般的糯米鸡，它是由新鲜的荷叶包裹而成，荷叶的香气也会在制作的过程中散发出来。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:background="#ffa9f7c6"
+                    android:padding="5dp" />
+            </LinearLayout>
+        <!--food8-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/food8" />
+                <TextView
+                    android:text="    赏花的同时，绿油油的荷叶也让人心痒，荷叶可用来做荷叶鸡，荷叶饭，还可以来泡泡荷叶茶。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:background="#ffa9f7c6"
+                    android:padding="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C682C071-CC5E-4EF4-978C-D962996DD4A4}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lotus</RootNamespace>
+    <AssemblyName>Lotus</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activity1_1.cs" />
+    <Compile Include="Activity3_1.cs" />
+    <Compile Include="Activity3_2.cs" />
+    <Compile Include="Activity4_1.cs" />
+    <Compile Include="Activity4_2.cs" />
+    <Compile Include="Activity1_2.cs" />
+    <Compile Include="Activity1_3.cs" />
+    <Compile Include="SettingActivity.cs" />
+    <Compile Include="LogoActivity2_1.cs" />
+    <Compile Include="LogoActivity2_2.cs" />
+    <Compile Include="LogoActivity4.cs" />
+    <Compile Include="LogoActivity3.cs" />
+    <Compile Include="LogoActivity2.cs" />
+    <Compile Include="LogoActivity1.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="splashscreen.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\Layout\Logolayout1.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Logolayout2.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Logolayout4.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Logolayout3.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Logolayout1_1.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\food_list.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\poem_list.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\layout3_1.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\layout3_2.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\game1.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\game2.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\settinglayout.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Logolayout1_2.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Logolayout1_3.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\logo1_pressed.png" />
+    <AndroidResource Include="Resources\Drawable\mainpic1.jpg" />
+    <AndroidResource Include="Resources\Drawable\mainpic2.jpg" />
+    <AndroidResource Include="Resources\Drawable\mainpic3.jpg" />
+    <AndroidResource Include="Resources\Drawable\mainpic4.jpg" />
+    <AndroidResource Include="Resources\Layout\Main.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\Drawable\back.png" />
+    <AndroidResource Include="Resources\Drawable\back_pressed.png" />
+    <AndroidResource Include="Resources\Drawable\backButton.xml" />
+    <AndroidResource Include="Resources\Drawable\settingButton.xml" />
+    <AndroidResource Include="Resources\Drawable\setting.png" />
+    <AndroidResource Include="Resources\Drawable\setting_pressed.png" />
+    <AndroidResource Include="Resources\Drawable\label.png" />
+    <AndroidResource Include="Resources\Drawable\LogoButtonBg.xml" />
+    <AndroidResource Include="Resources\Drawable\logo1Button.xml" />
+    <AndroidResource Include="Resources\Drawable\logo1_up.png" />
+    <AndroidResource Include="Resources\Drawable\logo2_pressed.png" />
+    <AndroidResource Include="Resources\Drawable\logo2_up.png" />
+    <AndroidResource Include="Resources\Drawable\logo3_pressed.png" />
+    <AndroidResource Include="Resources\Drawable\logo3_up.png" />
+    <AndroidResource Include="Resources\Drawable\logo4_pressed.png" />
+    <AndroidResource Include="Resources\Drawable\logo4_up.png" />
+    <AndroidResource Include="Resources\Drawable\logo2Button.xml" />
+    <AndroidResource Include="Resources\Drawable\logo3Button.xml" />
+    <AndroidResource Include="Resources\Drawable\logo4Button.xml" />
+    <AndroidResource Include="Resources\Drawable\mainpic5.jpg" />
+    <AndroidResource Include="Resources\Drawable\label1.png" />
+    <AndroidResource Include="Resources\Drawable\label3.png" />
+    <AndroidResource Include="Resources\Drawable\label4.png" />
+    <AndroidResource Include="Resources\Drawable\label2.png" />
+    <AndroidResource Include="Resources\Drawable\bg1.png" />
+    <AndroidResource Include="Resources\Drawable\bg2.png" />
+    <AndroidResource Include="Resources\Drawable\bg3.png" />
+    <AndroidResource Include="Resources\Drawable\bg4.png" />
+    <AndroidResource Include="Resources\Drawable\logo1_button1_selector.xml" />
+    <AndroidResource Include="Resources\Drawable\logo1_button2_selector.xml" />
+    <AndroidResource Include="Resources\Drawable\logo1_button3_selector.xml" />
+    <AndroidResource Include="Resources\Drawable\logo1_button4_selector.xml" />
+    <AndroidResource Include="Resources\Drawable\lotus1_1.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_2.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_3.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_4.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_5.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_6.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_7.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_8.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_9.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_10.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_11.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_12.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_13.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_14.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_15.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_16.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_17.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_18.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_19.png" />
+    <AndroidResource Include="Resources\Drawable\lotus1_20.png" />
+    <AndroidResource Include="Resources\anim\zoom_in.xml" />
+    <AndroidResource Include="Resources\anim\zoom_out.xml" />
+    <AndroidResource Include="Resources\anim\game1_in.xml" />
+    <AndroidResource Include="Resources\Drawable\bg2_pressed.png" />
+    <AndroidResource Include="Resources\Drawable\poemButton_selector.xml" />
+    <AndroidResource Include="Resources\Drawable\drawing1.png" />
+    <AndroidResource Include="Resources\Drawable\drawing2.png" />
+    <AndroidResource Include="Resources\Drawable\drawing3.png" />
+    <AndroidResource Include="Resources\Drawable\drawing4.png" />
+    <AndroidResource Include="Resources\Drawable\drawing5.png" />
+    <AndroidResource Include="Resources\Drawable\drawing6.png" />
+    <AndroidResource Include="Resources\Drawable\drawing7.png" />
+    <AndroidResource Include="Resources\Drawable\food1.png" />
+    <AndroidResource Include="Resources\Drawable\food2.png" />
+    <AndroidResource Include="Resources\Drawable\food3.png" />
+    <AndroidResource Include="Resources\Drawable\food4.png" />
+    <AndroidResource Include="Resources\Drawable\food5.png" />
+    <AndroidResource Include="Resources\Drawable\food6.png" />
+    <AndroidResource Include="Resources\Drawable\food7.png" />
+    <AndroidResource Include="Resources\Drawable\food8.png" />
+    <AndroidResource Include="Resources\Drawable\foodButton_selector.xml" />
+    <AndroidResource Include="Resources\Drawable\bg4_pressed.png" />
+    <AndroidResource Include="Resources\Drawable\loli1.png" />
+    <AndroidResource Include="Resources\Drawable\loli2.png" />
+    <AndroidResource Include="Resources\Drawable\loli3.png" />
+    <AndroidResource Include="Resources\Drawable\loli4.png" />
+    <AndroidResource Include="Resources\Drawable\loli5.png" />
+    <AndroidResource Include="Resources\Drawable\loli6.png" />
+    <AndroidResource Include="Resources\Drawable\loli7.png" />
+    <AndroidResource Include="Resources\Drawable\loli8.png" />
+    <AndroidResource Include="Resources\Drawable\loli9.png" />
+    <AndroidResource Include="Resources\Drawable\loli10.png" />
+    <AndroidResource Include="Resources\Drawable\loli11.png" />
+    <AndroidResource Include="Resources\Drawable\loli12.png" />
+    <AndroidResource Include="Resources\Drawable\loli13.png" />
+    <AndroidResource Include="Resources\Drawable\loli14.png" />
+    <AndroidResource Include="Resources\Drawable\loli15.png" />
+    <AndroidResource Include="Resources\Drawable\loli16.png" />
+    <AndroidResource Include="Resources\Drawable\loli17.png" />
+    <AndroidResource Include="Resources\Drawable\loli18.png" />
+    <AndroidResource Include="Resources\Drawable\loli19.png" />
+    <AndroidResource Include="Resources\Drawable\loli20.png" />
+    <AndroidResource Include="Resources\Drawable\loli21.png" />
+    <AndroidResource Include="Resources\Drawable\loli22.png" />
+    <AndroidResource Include="Resources\Drawable\loli23.png" />
+    <AndroidResource Include="Resources\Drawable\loli24.png" />
+    <AndroidResource Include="Resources\Drawable\loli25.png" />
+    <AndroidResource Include="Resources\Drawable\loli26.png" />
+    <AndroidResource Include="Resources\Drawable\loli27.png" />
+    <AndroidResource Include="Resources\anim\poem_change.xml" />
+    <AndroidResource Include="Resources\Drawable\lotuscarLogo.png" />
+    <AndroidResource Include="Resources\Drawable\lotusmann_logo.png" />
+    <AndroidResource Include="Resources\Drawable\mainbg3.png" />
+    <AndroidResource Include="Resources\Drawable\car_cover.png" />
+    <AndroidResource Include="Resources\Drawable\lotusmannCover.png" />
+    <AndroidResource Include="Resources\Drawable\gamebg.png" />
+    <AndroidResource Include="Resources\Drawable\gamelogo1.png" />
+    <AndroidResource Include="Resources\Drawable\gamelogo2.png" />
+    <AndroidResource Include="Resources\anim\game2_in.xml" />
+    <AndroidResource Include="Resources\Drawable\nezha.jpg" />
+    <AndroidResource Include="Resources\Drawable\nezha_1.jpg" />
+    <AndroidResource Include="Resources\Drawable\game1_1.png" />
+    <AndroidResource Include="Resources\Drawable\game1_2.png" />
+    <AndroidResource Include="Resources\Drawable\game1_3.png" />
+    <AndroidResource Include="Resources\Drawable\game1_4.png" />
+    <AndroidResource Include="Resources\Drawable\game1_5.png" />
+    <AndroidResource Include="Resources\Drawable\game1_6.png" />
+    <AndroidResource Include="Resources\Drawable\game1_7.png" />
+    <AndroidResource Include="Resources\Drawable\game1_8.png" />
+    <AndroidResource Include="Resources\Drawable\game1_9.png" />
+    <AndroidResource Include="Resources\Drawable\game1_ali.png" />
+    <AndroidResource Include="Resources\anim\maintext_in.xml" />
+    <AndroidResource Include="Resources\Drawable\splash.png" />
+    <AndroidResource Include="Resources\Values\Styles.xml" />
+    <AndroidResource Include="Resources\Drawable\labelsetting.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_1.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_2.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_3.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_4.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_5.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_6.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_7.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_8.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_9.png" />
+    <AndroidResource Include="Resources\Drawable\lotus2_10.png" />
+    <AndroidResource Include="Resources\Drawable\lotus3_1.png" />
+    <AndroidResource Include="Resources\Drawable\lotus3_2.png" />
+    <AndroidResource Include="Resources\Drawable\lotus3_3.png" />
+    <AndroidResource Include="Resources\Drawable\lotus3_4.png" />
+    <AndroidResource Include="Resources\Drawable\lotus3_5.png" />
+    <AndroidResource Include="Resources\Raw\testmusic.mp3" />
+    <AndroidResource Include="Resources\Raw\music.mp3" />
+    <AndroidResource Include="Resources\Drawable\sound_off.png" />
+    <AndroidResource Include="Resources\Drawable\sound_on.png" />
+    <AndroidResource Include="Resources\Drawable\settingbg.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    android:id="@+id/jewelrylayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/LayoutLabel3"
+        android:background="@drawable/label3">
+        <ImageButton
+            android:src="@drawable/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonBack3_2" />
+    </RelativeLayout>
+    <Button
+        android:background="@drawable/lotusmannCover"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Tag: 欧美 时尚 首饰 半宝石 祖母绿 天然水晶 潮流 精品"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000"
+                android:padding="3dp"
+                android:textSize="16sp" />
+            <TextView
+                android:text="    路塔斯曼商贸有限公司经销批发的半宝石首饰、手链、半宝石散件畅销消费者市场，在消费者当中享有较高的地位，公司与多家零售商和代理商建立了长期稳定的合作关系。深圳路塔斯曼商贸有限公司经销的半宝石首饰、手链、半宝石散件品种齐全、价格合理。深圳路塔斯曼商贸有限公司实力雄厚，重信用、守合同、保证产品质量，以多品种经营特色和薄利多销的原则，赢得了广大客户的信任。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000"
+                android:padding="3dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

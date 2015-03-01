@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LotusFamily"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/LayoutLabel1"
+        android:background="@drawable/label1">
+        <ImageButton
+            android:src="@drawable/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonBack1" />
+    </RelativeLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg1"
+        android:id="@+id/scrollView1_logo1">
+        <LinearLayout
+            android:id="@+id/linearlayoutText1"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="荷花--花中仙子"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textTitle1"
+                android:textColor="#ff37c611"
+                android:gravity="center_horizontal"
+                android:textSize="18sp" />
+            <TextView
+                android:text="学名：Nelumbo mucifera"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textTitle2"
+                android:textColor="#ff2286f6"
+                android:gravity="left"
+                android:textSize="14sp"
+                android:layout_marginLeft="50dp" />
+            <TextView
+                android:text="别名：莲花、水芝、芙蓉、六月春"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textTitle3"
+                android:textColor="#ff2286f6"
+                android:gravity="left"
+                android:textSize="14sp"
+                android:layout_marginLeft="50dp" />
+            <TextView
+                android:text="科名：睡莲科、莲属"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textTitle4"
+                android:textColor="#ff2286f6"
+                android:gravity="left"
+                android:textSize="14sp"
+                android:layout_marginLeft="50dp" />
+            <TextView
+                android:text="形态特征：多年生水生植物"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textTitle5"
+                android:textColor="#ff2286f6"
+                android:gravity="left"
+                android:textSize="14sp"
+                android:layout_marginLeft="50dp" />
+            <TextView
+                android:text="    荷花根茎（藕）大而多节，横生于水底泥中。叶盾状圆形，表面深绿色，被蜡质白粉，背面灰绿色，全缘并呈波状。叶柄圆柱形，密生倒刺。花单生于花梗顶端、高托水面之上，有单瓣、复瓣、重瓣及重台等花型；花色有白、粉、深红、淡紫色或间色等变化；雄蕊多数；雌蕊离生，埋藏于倒圆锥状海绵质花托内，花托表面具多数散生蜂窝状孔洞，受精后逐渐膨大称为为莲蓬，每一孔洞内生一小坚果（莲子）。花期6月－9月，每日晨开暮闭。果熟期9月－10月。荷花栽培品种很多，依用途不同可分为藕莲、子莲和花莲三大系统。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"
+                android:id="@+id/textMain1" />
+            <TextView
+                android:text="    荷花为窃根水生花卉。藕是荷花横生于淤泥中的肥大地下茎。藕的 横断面有许多大小不一的孔道，这是荷花为适应水中生活形成的气腔。此种气腔在叶 柄、花梗里同样可以见到。 在茎上还有许多细小的运输水分的导管，导管壁 上附有 增厚的粘液状的木质纤维素。它具有一定的弹性，当折断拉长时，使出现许多白色相 连的藕丝。老藕的丝尤多于微藕。 种藕的顶芽叫藕苫，被鳞片包着。它萌发后抽出白嫩细长的地下茎，称为藕带。藕带分节，节的周围环生不定根。节上抽叶和花。从藕带先端形成的新藕叫 主藕，旺盛者有4-7节藕筒，简长10-25厘米，直径约6-12厘米。主藕 上分出支藕叫子藕；从子藕再长出的小葱称孙藕，常仅1节。藕的大小、形态、色泽、生 藕的迟早、入泥深浅、品质风味等，均因品种而异，又受栽培和条件的影响。 叶大，直径可达70厘米，全线，呈盾状圆形，具14-2l条辐射状叶脉。叶面深绿色、 粗糙、满布短小钝刺。刺间有一层蜡质白粉，故能使雨水凝成滚动的水珠。所谓‘掉拂 珠碎却圆’(唐·杜甫诗句)，赞美的正是雨后荷花特有的动态景观。叶背谈绿，光洁无毛， 脉隆起，中央有圆柱状叶柄挺举荷叶出水。柄上倒生较密刚刺，叶柄与地下茎相连处呈白 色，水中及水上部分则为绿色。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/textMain2" />
+            <TextView
+                android:text="    叶分三种：以顶芽最初产生的叶，形小柄细，浮于水面，称为钱叶，或叫荷钱；最早 从藕带上长的叶略大，也浮于水面，叫浮叶；后来从藕带上长的挺出水面的叶叫立叶。无 论是钱叶、浮叶或立叶，出水前均相对内卷成棱条状。立叶依生长早晚，其大小、高矮、 顺序表现出明显的上升阶梯和下降阶梯。在新藕形成时抽出的立叶，比前张大而刚刺较短， 叫‘后把叶’，在其前方再出现一张形小、柄短、叶背微红的叶，叫‘终止叶’。人们只 要辨别出终止叶，就能找到泥中新藕的方位。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/textMain3" />
+            <TextView
+                android:text="    荷花的花原基着生于藕带处芽内、幼叶基部的背面；花单生、两性；萼片4-5，绿色， 花开后脱落；营长桃形、桃形或圆桃形，暗紫或灰绿色；花有单瓣、复瓣、重台、千瓣之分，色有深红、粉红、白、谈绿及间色等变化；花期6-9月，单朵花期只3-4天，多展开 午闭，千瓣类能开10天以上；花径最大可达30厘米，小者不足10厘米；雄蕊60-450枚或 瓣化，花药之附屑物多黄色，花丝白色；校头顶生，子房上位，心皮多数分离，散生于碗 形、喇叭形的绿色花托内。花谢后膨大的花托称莲蓬，上有3-30个莲室，发育正常时，每 个心皮形成一个椭圆形小坚果。有时心皮泡化或瓣化，不能形成果实。 果实俗称莲子，青熬时果皮青绿色，老熟时变为深蓝色。果皮表面有气孔和保卫细胞， 表皮下有坚固而致密的栅栏组织，气孔下有一条气孔道，成熟莲子果皮的气孔道缩得很小， 不让空气和水分自由出入，甚至能阻止微生物进入。这种特殊的组织结构，就保证了莲子 的长寿。它可埋在地层中千百年，而不致损坏，甚至还可用来播种发芽。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/textMain4" />
+            <TextView
+                android:text="    荷花原产亚洲热带地区和大洋洲。除中国外，日本、苏联、印度、 斯里兰卡、印度尼西亚、澳大利亚等国均有分布。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/textMain5" />
+            <TextView
+                android:text="    荷花与花中君子-菊花、花中仙子-荷花、花中之王-牡丹、花中君子-梅花、天下第一香-兰花、九里飘香-桂花、花中西施-杜鹃、花中皇后-月季、花中珍品-山茶花、凌波仙子-水仙并称为中国十大名花。中国有八大荷花观赏地：新都桂湖、湖北洪湖、杭州西湖、武汉东湖、岳阳莲湖、山东微山湖、济南大明湖、南京玄武湖。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/textMain6" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:text="碗莲品种"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/logo1_button1"
+        android:background="@drawable/logo1_button1_selector"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="30dp" />
+    <Button
+        android:text="睡莲品种"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/logo1_button2"
+        android:background="@drawable/logo1_button2_selector"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+    <Button
+        android:text="新兴品种"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/logo1_button3"
+        android:background="@drawable/logo1_button3_selector"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+</LinearLayout>

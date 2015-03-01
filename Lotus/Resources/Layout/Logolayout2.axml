@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/LotusCulture"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/LayoutLabel2"
+        android:background="@drawable/label2">
+        <ImageButton
+            android:src="@drawable/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonBack2" />
+    </RelativeLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="荷花意象"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:background="@drawable/logo1_button1_selector"
+                android:textSize="22sp"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:text="    荷花“出淤泥而不染，濯清涟而不妖。”比喻不与世俗同流合污的君子。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:text="    “莲子”同“怜子”（“怜”，怜爱；“子”，你），表倾慕之意。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="0dp" />
+            <Button
+                android:text="荷花诗词"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo1_button2_selector"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:gravity="left" />
+        <!--诗词button-->
+            <Button
+                android:text="荷之韵  莲之雅"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:textSize="18sp"
+                android:background="@drawable/poemButton_selector"
+                android:id="@+id/buttonPoem" />
+            <Button
+                android:text="荷花画展"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo1_button3_selector"
+                android:textColor="@android:color/white"
+                android:gravity="left"
+                android:textSize="22sp" />
+        <!--用横向卷轴展示7张国画-->
+            <HorizontalScrollView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView1">
+            <!-->注意linearout的的height和width两个属性在这里比较特殊<-->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/drawing1" />
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/drawing2" />
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/drawing3" />
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/drawing4" />
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/drawing5" />
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/drawing6" />
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/drawing7" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo1_button4_selector"
+                android:text="荷花饮食"
+                android:textColor="@android:color/white"
+                android:gravity="left"
+                android:textSize="22sp" />
+            <Button
+                android:text="秀色可餐"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:textSize="18sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/foodButton_selector"
+                android:id="@+id/buttonFood" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/linear_interpolator">
+  <!--这里的退出效果不明显，不知为何-->>
+  <translate
+  android:fromXDelta="0%p"
+    android:toXDelta="100%p"
+    android:duration="2000"/>
+
+</set>

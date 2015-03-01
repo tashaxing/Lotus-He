@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lotus_setting"
+    android:orientation="vertical"
+    android:background="@drawable/settingbg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/LayoutLabel3"
+        android:background="@drawable/labelsetting">
+        <ImageButton
+            android:src="@drawable/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonBackSetting" />
+    </RelativeLayout>
+    <TextView
+        android:text="名称：荷Lotus"
+        android:textColor="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp" />
+    <TextView
+        android:text="作者：踏莎行"
+        android:textColor="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp" />
+    <TextView
+        android:text="版本：v1.0"
+        android:textColor="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp" />
+    <TextView
+        android:text="联系方式：tashaxing123@163.com"
+        android:textColor="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp" />
+    <TextView
+        android:text="描述：自动化学生一枚，喜欢古诗词，尤其喜欢莲花等具有独特意象的花草，特此搜集相关内容做了这一款关于荷花的综合性APP，包括荷花的品种，荷花的诗词、饮食文化、国画，有关荷花的商业品牌。没有别的意思，仅仅作为娱乐而已，美术很差，界面将就着看吧。如果遇到闪退、崩溃等bug，可以邮箱联系我，我尽力修改，当然，技术太业余，请见谅。"
+        android:textColor="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+</LinearLayout>

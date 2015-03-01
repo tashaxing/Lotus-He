@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/LotusPoem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/label2">
+        <ImageButton
+            android:src="@drawable/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButtonBack2_2" />
+    </RelativeLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/text_poem_block"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg3"
+        android:layout_height="200dp">
+        <TextView
+            android:text="荷花文化灿若星河，源远流长。千百年来，无数骚人墨客为之心神相系，梦魂萦绕，于是或挥毫泼墨，或浅唱高歌，从而留下了浩如烟海，汗牛充栋的诗书画文，其中不乏无价墨宝，千古绝唱。"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textPoem"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:paddingTop="20dp" />
+    </ScrollView>
+<!--诗行-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="诗"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:textColor="#ffffffff"
+            android:background="#fff25500"
+            android:textSize="22sp" />
+        <HorizontalScrollView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="采莲曲"
+                    android:id="@+id/shi1"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="西洲曲"
+                    android:id="@+id/shi2"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="小池"
+                    android:id="@+id/shi3"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="折荷有赠"
+                    android:id="@+id/shi4"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="送林子方"
+                    android:id="@+id/shi5"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="古风"
+                    android:id="@+id/shi6"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="江南"
+                    android:id="@+id/shi7"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="芙蓉"
+                    android:id="@+id/shi8"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli8"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="莲花坞"
+                    android:id="@+id/shi9"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli9"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="赠荷花"
+                    android:id="@+id/shi10"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli10"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ffff0000"
+                    android:paddingTop="60dp" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+<!--词行-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="词"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:textColor="#ffffffff"
+            android:background="#ff2fe817"
+            android:textSize="22sp" />
+        <HorizontalScrollView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="如梦令"
+                    android:id="@+id/shi11"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli11"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+                <Button
+                    android:text="卜算子"
+                    android:id="@+id/shi12"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli12"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+                <Button
+                    android:text="苏幕遮"
+                    android:id="@+id/shi13"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli13"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+                <Button
+                    android:text="望海潮"
+                    android:id="@+id/shi14"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli14"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+                <Button
+                    android:text="荷花媚"
+                    android:id="@+id/shi15"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli15"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+                <Button
+                    android:text="一剪梅"
+                    android:id="@+id/shi16"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli16"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+                <Button
+                    android:text="蝶恋花"
+                    android:id="@+id/shi17"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli17"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+                <Button
+                    android:text="爱莲说"
+                    android:id="@+id/shi18"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli18"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+                <Button
+                    android:text="采桑子"
+                    android:id="@+id/shi19"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli19"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+                <Button
+                    android:text="踏莎行"
+                    android:id="@+id/shi20"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli20"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="60dp"
+                    android:textColor="#ff059a23" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+<!--曲行-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="曲"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:textColor="#ffffffff"
+            android:background="#ff0c50eb"
+            android:textSize="22sp" />
+        <HorizontalScrollView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="鹧鸪天"
+                    android:id="@+id/shi21"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli21"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ff0c50eb"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="水调歌头"
+                    android:id="@+id/shi22"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli22"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ff0c50eb"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="水仙子咏江南"
+                    android:id="@+id/shi23"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli23"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ff0c50eb"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="菩萨蛮"
+                    android:id="@+id/shi24"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli24"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ff0c50eb"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="采莲赋"
+                    android:id="@+id/shi25"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli25"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ff0c50eb"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="三益塘芙蓉"
+                    android:id="@+id/shi26"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli26"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ff0c50eb"
+                    android:paddingTop="60dp" />
+                <Button
+                    android:text="钱氏池上芙蓉"
+                    android:id="@+id/shi27"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/loli27"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textColor="#ff0c50eb"
+                    android:paddingTop="60dp" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

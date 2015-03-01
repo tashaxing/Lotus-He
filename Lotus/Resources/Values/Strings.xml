@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Lotus</string>
+  <drawable name="clr1_normal">#ff16f077</drawable>
+  <drawable name="clr2_normal">#ff079dea</drawable>
+  <drawable name="clr3_normal">#fff56bed</drawable>
+  <drawable name="clr4_normal">#ffff9a00</drawable>
+  <drawable name="clr_pressed">#ffff0000</drawable>
+  <drawable name="piece_green">#ff00ff00</drawable>
+</resources>
